@@ -6,6 +6,19 @@
 
 Sharpie is a 16-bit fantasy console implemented in C#. It is a powerhouse designed to get in your way as little as possible while mimicking how old NES- and SNES-era games were programmed. It features its own custom Assembly language that facilitates most of what you'd need to not pull your hair out in the process of making a game, as well as support for C.
 
+### what is sharpie-express
+
+sharpie-express is a port of sharpie to Stardust by Finite.
+mostly containing the origional setup, it features extra ram, higher register count and 
+increased audio channels provided by Stardust's audio system.
+
+to use sharpie on it's own, you can download builds for sharpie from the origional repository [here](https://github.com/ChristosMaragkos/Sharpie)
+
+go, have fun!
+
+
+## origional specs listed below
+
 ## Hardware Specs
 
 * **CPU:** 16-bit custom little-endian architecture.

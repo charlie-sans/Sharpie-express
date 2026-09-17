@@ -1,6 +1,6 @@
 ﻿namespace Sharpie.Core.Hardware;
 
-internal class Memory
+public class Memory // make this public for the Stardust bindings
 {
     // Memory map
     public const ushort RomStart = 0x0000;

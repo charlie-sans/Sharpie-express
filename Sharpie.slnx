@@ -1,12 +1,34 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="TODO.md" />
+  </Folder>
+  <Folder Name="/Solution Items/docs/">
+    <File Path="docs/APU.md" />
+    <File Path="docs/ARCHITECTURE.md" />
+    <File Path="docs/ASSEMBLER.md" />
+    <File Path="docs/CCOMPILER.md" />
+    <File Path="docs/CLI.md" />
+    <File Path="docs/CPU.md" />
+    <File Path="docs/DRIVERS.md" />
+    <File Path="docs/GENERATOR_TOOLS.md" />
+    <File Path="docs/index.md" />
+    <File Path="docs/ISA_REFERENCE.md" />
+    <File Path="docs/MEMORY.md" />
+    <File Path="docs/MOTHERBOARD.md" />
+    <File Path="docs/OAM.md" />
+    <File Path="docs/PPU.md" />
+    <File Path="docs/RUNNERS.md" />
+    <File Path="docs/SYSCALL_REFERENCE.md" />
+  </Folder>
   <Folder Name="/src/">
+    <Project Path="src/Sharpie.Assembler/Sharpie.Assembler.csproj" />
+    <Project Path="src/Sharpie.CCompiler/Sharpie.CCompiler.csproj" />
     <Project Path="src/Sharpie.Cli/Sharpie.Cli.csproj" />
     <Project Path="src/Sharpie.Core/Sharpie.Core.csproj" />
-    <Project Path="src/Sharpie.Runner/RaylibCs/Sharpie.Runner.RaylibCs.csproj" />
-    <Project Path="src/Sharpie.Runner/Headless/Sharpie.Runner.Headless.csproj" />
-    <Project Path="src/Sharpie.CCompiler/Sharpie.CCompiler.csproj" />
     <Project Path="src/Sharpie.Generator/Sharpie.Generator.csproj" />
-    <Project Path="src/Sharpie.Assembler/Sharpie.Assembler.csproj" />
+    <Project Path="src/Sharpie.Runner/Headless/Sharpie.Runner.Headless.csproj" />
+    <Project Path="src/Sharpie.Runner/RaylibCs/Sharpie.Runner.RaylibCs.csproj" />
     <Project Path="src/Sharpie.Tests/Sharpie.Tests.csproj" />
     <Project Path="src/Sharpie.Tools/Sharpie.Tools.csproj" />
   </Folder>
